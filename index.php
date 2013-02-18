@@ -1,30 +1,31 @@
 <?php
 	// Grab data from the file.
 	$handle = @fopen('./data/twitter_user_id_mapping-20091111.tsv','r');
-	$i = 0;
 	
 	if ($handle) {
 
-		for ($i; $i <= 5; $i++) {
+		for ($i=1; $i <= 50; $i++) {
 		//while (!feof($handle)) {
-			$lines[] = fgets($handle, 4096);
+			$lines[] = fgets($handle/*, 4096*/);
+
+
+
+
 			$s_line = preg_replace('/\s+/', ' ',trim($lines[0]));
 			$a = explode(' ',$s_line);
 			
-			print_r($a);
+			#print_r($a);
 			
 			// Reset
 			unset($a);
-			unset($lines);
+//			unset($lines);
 			unset($s_line);
-			
-			// Increment
-			$i++;
 		}
+			print_r($lines);
 
 		fclose($handle);	
 
-	}
+	} //end if
 	
 $mysqli = new mysqli('localhost', 'root', 'password', 'bigdata');
 
