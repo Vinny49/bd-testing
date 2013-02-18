@@ -1,0 +1,41 @@
+datadescriptionThe data comes consists of a file with the following fields:
+
+* api_id -- the API ID of the Twitter user.
+* screen_name -- the Twitter user's screen name
+* search_id -- the Twitter Search ID for the user.
+
+
+infochimps_page
+http://infochimps.org/datasets/twitter-search-id-to-twitter-api-mapping/payloads/15373fieldstitleID Mappingdatasetcreated_at
+Wed Nov 11 14:44:06 UTC 2009subtitle
+
+Twitter ID mapping for 24.5M Users
+
+updated_atWed Nov 11 16:21:01 UTC 2009sourcesdescription
+The Monkeywrench Consultancy is an organization dedicated to producing and providing analytics for valuable data.
+infochimps_page
+http://infochimps.org/sources/monkeywrench-consultancymain_link
+http://www.infinitemonkeywrench.com/titleMonkeywrench Consultancydescription
+
+The Twitter API currently consists of two discrete APIs. Most application developers mix and match the APIs to produce their application. 
+The separation of the REST and Search APIs is less than ideal and it is entirely due to history 
+It is in our pipeline to ameliorate Twitter's API by combining the Search and REST pieces as development cycles allow. 
+The API Overview portion of the Getting Started series explains the history.
+
+infochimps_page
+
+http://infochimps.org/sources/twitter-apimain_linkhttp://apiwiki.twitter.com/titleTwitter APItagsapitwittermappingsocialnetworkidusersinfochimps_pagehttp://infochimps.org/datasets/twitter-search-id-to-twitter-api-mappingmain_linkhttp://www.twitter.com/categoriesComputers::Social Networkscreated_byinstitutionMonkeywrench Consultancyinfochimps_usernameMonkeywrenchConsultancyinfochimps_pagehttp://infochimps.org/users/MonkeywrenchConsultancymain_linkhttp://www.infinitemonkeywrench.orgnameMonkeywrench ConsultancytitleTwitter Search ID to Twitter API MappinglicensedescriptionThis data is not re-distributable in bulk form.  
+This data may be used to produce derivative works and to power applications for commercial gain.
+Any API or service built on this dataset may not have the same effect as re-distributing this data in bulk.infochimps_pagehttp://infochimps.org/licenses/monkeywrench-consultancy-licensemain_linktitleMonkeywrench Consultancy LicenseschemadecriptionThis is an Infochimps Simple Schema (ICSS).  An ICSS is a YAML
+file describing a dataset on Infochimps.org.
+
+An ICSS summarizes the metadata for a dataset, including its
+title, description, tags, categories, sources, licenses, & data
+fields.
+
+The ICSS is designed to be both human and machine readable.
+
+If this ICSS is missing information, please consider visiting its
+URL at Infochimps.org and completing it.
+
+titleInfochimps Simple Schema (ICSS)version0.1

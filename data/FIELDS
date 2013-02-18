@@ -1,0 +1,5 @@
+The mapping between Twitter API IDs and Twitter Search IDs is in the file twitter_user_id_mapping-20091111.tsv.
+
+The fields in order are 
+
+TWITTER_API_ID	TWITTER_SCREENNAME	TWITTER_SEARCH_ID
